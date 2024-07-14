@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /*Stylng the heading of about us section*/
+  .about-us-heading{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+/*Styling our-vision section*/
+.our-vision{
+    text-align: center;
+}
+.vision{
+    display:flex;
+   padding: 2rem;
+   text-align: center;
+
+}
+.vision .vision1{
+    
+    flex: 30%;
+    
+    border: 2px solid black;
+}
+.vision .vision2{
+    flex: 30%;
+    border: 2px solid black;
+}
+.vision .vision3{
+    flex: 30%;
+    border: 2px solid green;
+}
+/* The same class is given to the flexbox table so, it all can have same property */
+.same{
+    display:flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.our-story-container{
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-story-paragraph{
+    
+    width:700px;
+    font-size: 1.2rem;
+    line-height: 30px;
+
+}
+.our-story-heading{
+    text-align: center;
+    margin-top: 2rem;
+}
+.our-story-image{
+    width: 400px;
+}
+.our-story-image img{
+    width: 100%;
+}

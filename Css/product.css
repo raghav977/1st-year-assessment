@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* to give max width to every element container is used */
+.container{
+    max-width: 1500px;
+    min-width: 300px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    
+    
+}
+/* heading section */
+.header{
+    margin-top: 2rem;
+    background-color:#fff;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* links section */
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* links icons styling */
+.links>i{
+    margin: 0px 10px;
+    font-size: 1.54rem;
+   font-weight: bold; 
+   padding: 0.68rem;
+   cursor: pointer;
+
+}
+/* logo of facebook styling */
+
+.fa-facebook-square {
+    color: #3b5998;
+  }
+  /* logo of instagram styling */
+.fa-instagram{
+    color: #f09433; 
+}
+.fa-twitter-square{
+    color: #1DA1F2;
+}
+.fa-instagram{
+    color: rgb(229,104,67);
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+/* header section search bar styling */
+.search-bar input{
+    /* padding: 2rem; */
+    /* width: 10rem; */
+    height: 2rem;
+
+}
+.search-bar > input{
+    padding: 1.65rem;
+}
+.search-bar input ,i{
+    font-size: 1.25rem;
+}
+.fa-search{
+    font-size: 1.85rem;
+}
+.shop-name p span{
+    /* border: 2px solid red; */
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+}
+.shop-name{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    
+}
+.shop-name i{
+    margin-bottom: -0.25rem;
+    margin-left: 0.25rem;
+}
+/* navbar section */
+.navbar{
+    /* border: 2px solid red; */
+    background-color: #000;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 0.52rem; */
+    
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content:center;
+    padding: 0.50rem;
+}
+.navbar ul li a{
+    
+    color: white;
+    text-decoration: none;
+    padding:0rem 2rem;
+    font-size: 1rem;
+}
+.logo i{
+    color: white;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+/* product section styling */
+.product-container{
+    max-width: 80vw;
+    margin: auto;
+}
+.product-heading{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+}
+.canonimage img{
+    width: 100%;
+    height:auto;
+}
+.product-section{
+    margin-top: 4rem;
+    /* border: 2px solid red; */
+}
+.canon-para .pixma{
+    /* border: 2px solid green; */
+    max-width: 20vw;
+    font-size: 0.7rem;
+    color: #989696;
+    /* text-align: right; */
+    /* margin-top: 2rem; */
+    /* text-align: justify; */
+}
+
+.pixma{
+    font-size:1.2rem;
+
+}
+.canon{
+    /* border: 2px solid blue; */
+    max-width: 18vw;
+    
+}
+.canon-para{
+    text-align: center;
+}
+.prize{
+    /* border: 2px solid red; */
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    /* border: 1px solid black; */
+    
+    background-color: rgb(255, 255, 255);
+    color: #ea3737;
+    text-align: center;
+}
+.product-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.canon{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+.canon:hover{
+    transform: scale(1.1);
+}
+

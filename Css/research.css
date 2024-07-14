@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Targeting the website inspirations and research section and styling it  */
+.main-div{
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    max-width: 1400px;
+    margin: 4rem auto;
+    /* width: 1200px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly  ;
+    
+    /* flex-direction: column; */
+    
+}
+/* Targeting the topic section */
+.topic{
+    color: black;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+/* Targeting the paragraph of the website inspiration section */
+.para{
+    margin-top: 1rem;
+    /* border: 2px solid green; */
+    max-width: 400px;
+    color: black;
+    line-height: 35px;
+    text-align: justify;
+}
+/* targeting the paragraph inside the para class */
+.para p{
+    font-size: 1rem;
+}
+/* targeting the image class and seting it's maxwidth */
+.image{
+    max-width: 600px;
+}
+/* Assigning the width of 100% according to it;s parent class */
+.image img{
+    width: 100%;
+}
+/* H2 section of website-inspiration */
+.inspiration, .website-inspiration h2{
+    /* text-align: justify; */
+    background-color: grey;
+    width: 100%;
+    /* backgrou
+    nd-color: red; */
+    
+}
+.inspiration{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* STYLING COMPARATIVE ASPECT H2 */
+.aspect, .Comparative-aspect h2{
+    padding: 2rem;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.topic2{
+    color: #3e3e3e;
+}
+.paragraph{
+    margin-top: 1rem;
+    color: #000;
+    line-height: 24px;
+    font-size: 20px;
+    
+}
+/* 2ND LAST SECTION OF WEBSITE */
+.Implement, .Decision-and-Implementation h2{
+    padding: 2rem;
+    background-color: rgb(103, 103, 103);
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+.website-names{
+    padding: 2rem;
+    line-height: 2rem;
+
+}
+.website-names ul{
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+.website-names ul li a{
+    color: rgb(250, 177, 177);
+    text-decoration: underline;
+}
+
